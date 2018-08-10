@@ -1,0 +1,40 @@
+{
+  "name": "joi-iban-extension",
+  "version": "1.0.0",
+  "description": "A Joi extension for validation of Bank Account IBAN and BIC (SWIFT code)",
+  "homepage": "https://tallysticks.io",
+  "bugs": {
+    "url": "https://github.com/Tallysticks/joi-iban-extension/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "George Wilson",
+    "email": "george@tallysticks.io"
+  },
+  "contributors": [
+    {
+      "name": "George Wilson",
+      "email": "george@tallysticks.io"
+    }
+  ],
+  "main": "src",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tallysticks/joi-iban-extension.git"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha test"
+  },
+  "dependencies": {
+    "ibantools": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^3.5.3",
+    "joi": "^13.1.1"
+  },
+  "engines": {
+    "node": "8.x.x"
+  }
+}
