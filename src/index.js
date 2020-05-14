@@ -46,7 +46,7 @@ module.exports = joi => {
           if (iban.isValidBIC(value)) {
             return value
           }
-          return error('stringinvalidSWIFTBIC')
+          return error('invalidSWIFTBIC')
         },
       },
     },
